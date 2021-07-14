@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Airstrike';
+  src: local('Airstrike Regular'), url(./fonts/airstrike.ttf) format('truetype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Airstrike Academy';
+  src: local('Airstrike Academy Regular'),
+    url(./fonts/airstrikeacad.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Airstrike 3D';
+  src: local('Airstrike Bold 3D'),
+    url(./fonts/airstrikeb3d.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Airstrike Half-Tone';
+  src: local('Airstrike Half-Tone Regular'),
+    url(./fonts/airstrikehalf.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Airstrike Laser';
+  src: local('Airstrike Laser Regular'),
+    url(./fonts/airstrikelaser.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Airstrike Outline';
+  src: local('Airstrike Outline Regular'),
+    url(./fonts/airstrikeout.ttf) format('truetype');
 }
