@@ -11,13 +11,14 @@ const styles = makeStyles((theme) => ({
     justifyContent: 'center',
     background: `url('${heroBg}') no-repeat center`,
     backgroundSize: 'contain',
+    marginTop: '100px',
     marginBottom: '40px',
     [theme.breakpoints.up('sm')]: {
       marginBottom: '70px',
     },
     [theme.breakpoints.up('md')]: {
       padding: '100px',
-      margin: '50px 0 100px 0',
+      margin: '180px 0 70px 0',
     },
   },
   heroTitle: {

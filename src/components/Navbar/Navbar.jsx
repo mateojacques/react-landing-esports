@@ -34,7 +34,7 @@ const Navbar = ({ onResize }) => {
   }
 
   return (
-    <AppBar position='static' className={classes.navbar}>
+    <AppBar position='fixed' className={classes.navbar}>
       <Toolbar>
         {windowSize.width < 1024 ? (
           <div className={classes.toolbar}>

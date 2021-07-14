@@ -5,7 +5,7 @@ import useStyles from './styles'
 const Hero = () => {
   const classes = useStyles()
   return (
-    <section id='ads' className={classes.hero}>
+    <section id='hero' className={classes.hero}>
       <div className={classes.heroTitle}>
         <div>
           <Typography className={classes.echo} component='h4' color='secondary'>
